@@ -1,4 +1,5 @@
 ## 个人短信发送微服务
+  使用`Spring Boot`搭建
   通过`activeMQ`接收发送短信的消息，监听类: `SmsListener`，监听类调用`SmsUtil`发送短信
 
   监听的`activeMQ`发布者名称为 `sms`
